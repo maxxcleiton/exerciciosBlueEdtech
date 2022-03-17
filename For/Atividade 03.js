@@ -8,3 +8,6 @@ let numero = +prompt('Insira um número: ');
 for (let index = 0; index <= 10; index++){
     console.log(numero * index)
 };
+
+// Deixei bem simples, por enquanto sem perfumaria
+// Max Cleiton
