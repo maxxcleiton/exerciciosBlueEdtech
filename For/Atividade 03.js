@@ -5,9 +5,18 @@ console.log();
 // Faça um programa que peça um número e imprima toda a tabuada dele do 1 ao 10.
 
 let numero = +prompt('Insira um número: ');
+
+console.log();
+console.log(`Tabuada do ${numero}:`);
+console.log();
+
 for (let index = 0; index <= 10; index++){
-    console.log(numero * index)
+    console.log(`${numero} x ${index} = ${numero * index}`)
 };
 
-// Deixei bem simples, por enquanto sem perfumaria
-// Max Cleiton
+
+// Fim de código.
+
+// Max Cleiton.
+// https://github.com/maxxcleiton
+// https://www.linkedin.com/in/max-cleiton-4874a21b0/
