@@ -19,3 +19,5 @@ function factorialize(num) {
   }
 
 console.log(factorialize(n))
+
+// Conferir com alguém se é isso mesmo
