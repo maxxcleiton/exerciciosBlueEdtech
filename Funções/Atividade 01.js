@@ -1,4 +1,5 @@
 const prompt = require('prompt-sync')();
+console.clear();
 console.log();
 
 // Atividade 1 - Aula 12
