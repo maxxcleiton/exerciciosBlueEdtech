@@ -15,4 +15,9 @@ console.log();
             console.log("Erro, não se pode usar login e senha iguais, repita o processo.")
         } while (passw == user);
 
-// Max Cleiton
+        
+// Fim de código.
+
+// Max Cleiton.
+// https://github.com/maxxcleiton
+// https://www.linkedin.com/in/max-cleiton-4874a21b0/
