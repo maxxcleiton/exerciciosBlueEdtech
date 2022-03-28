@@ -9,29 +9,34 @@ const valores = {
     valorUm: 0,
     valorDois: 0,
     operador: '',
-}
-
-function f (x,y,z) {
-   if (z == '+') {
-       let r = x + y
-       return r
-   }
-    else if (z == '-'){
-       let r = x - y
-       return r
-   }
-    else if (z == '/'){
-       let r = x / y
-       return r
-   }
-    else if (z == '*'){
-       let r = x * y;
-       return r;
-    }
+    funcao: function(x,y,z) {
+        if (z == '+') {
+            let r = x + y;
+            return r;
+        }
+         else if (z == '-'){
+            let r = x - y;
+            return r;
+        }
+         else if (z == '/'){
+            let r = x / y;
+            return r;
+        }
+         else if (z == '*'){
+            let r = x * y;
+            return r;
+         }
+     },
 }
 
 valores.valorUm = +prompt('Digite o primeiro valor: ');
 valores.valorDois = +prompt('Digite o segundo valor: ');
 valores.operador = prompt('Digite o operador desejado (+, -, *, /): ');
 
-console.log(`O resultado ficou em: `,(f(valores.valorUm,valores.valorDois,valores.operador)))
+console.log(`O resultado ficou em: `,(valores.funcao(valores.valorUm,valores.valorDois,valores.operador)));
+
+// Fim de código.
+
+// Max Cleiton.
+// https://github.com/maxxcleiton
+// https://www.linkedin.com/in/max-cleiton-4874a21b0/
