@@ -16,19 +16,13 @@ const pessoa = {
     engordar: function(){
         this.peso++
     },
-    emagrecer: function(quilos){
-        let pesoperdido = pessoa.peso - quilos
-        console.log(`A pessoa emagreceu ${pessoa.peso} quilos`)
-        return pesoperdido
-    },
+    emagrecer: 
+    // function(quilos){
+    //     let pesoperdido = pessoa.peso - quilos
+    //     console.log(`A pessoa emagreceu ${pessoa.peso} quilos`)
+    //     return pesoperdido
+    // },
     crescer: function(){
-    
-    }
+        
+    },
 }
-
-pessoa.emagrecer(3)
-console.log(pessoa.peso)
-
-
-// const pessoaEmJSON = JSON.stringify(pessoa);
-// console.log(pessoaEmJSON)
